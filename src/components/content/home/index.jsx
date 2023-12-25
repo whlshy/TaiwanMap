@@ -16,8 +16,7 @@ export default function index() {
         onMouseOver={(value) => setMouseName(value)}
         onMouseLeave={() => setMouseName(null)}
       />
-      <Box>
-
+      <Box sx={{ ml: 2, mr: 2, flex: "1 1 auto" }}>
         <CountyShow
           title={now_data?.place}
         />

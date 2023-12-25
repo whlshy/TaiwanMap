@@ -24,11 +24,7 @@ export default function Main() {
         <Content />
         <Footer
           title={
-            <video className='footer-logo' autoPlay={true} loop muted controls={false}>
-              <source src="./wke_ani.mp4" type="video/mp4" />
-              Your browser does not support HTML5 video.
-            </video>
-            // <img src='./wke_ani.gif' alt="wke logo" className='footer-logo' />
+              <img src="./nstu.png" className='footer-logo' />
           }
         />
       </Box>

@@ -6,9 +6,9 @@ export default function index(props) {
   return (
     <footer>
       <div className='footer-content flex aic'>
-        <Link to="/" className='reset-link flex aic jcc'>
+        <a href='https://nstu.org.tw/' target='_blank' className='reset-link flex aic jcc'>
           {title}
-        </Link>
+        </a>
       </div>
       <div className='footer-content footer-info flex aic'>
         <div className='flex rowTitle'>© 2023 Web Knowledge Extraction (WKE) Lab. All rights reserved.</div>
