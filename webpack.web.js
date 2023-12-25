@@ -10,7 +10,7 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     filename: '[name]-[chunkhash].js',
-    publicPath: '/',
+    publicPath: '/docs/',
     path: __dirname + '/docs/',
   },
   resolve: {
