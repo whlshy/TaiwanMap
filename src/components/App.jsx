@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <Header
-        title={"台灣地圖"}
+        title={"代理教師表態地圖"}
       />
       <Main />
       <Alert />
