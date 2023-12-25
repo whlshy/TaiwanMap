@@ -14,6 +14,7 @@ module.exports = merge(common, {
     path: __dirname + '/docs/',
     filename: '[name]-[chunkhash].js',
     libraryTarget: 'commonjs2',
+    publicPath: '/TaiwanMap/'
   },
   resolve: {
     alias: {
