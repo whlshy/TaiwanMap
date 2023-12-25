@@ -10,7 +10,7 @@ export default function index() {
   let now_data = data.find(d => d.tag == (mouseName || dataName))
 
   return (
-    <Box sx={{ p: 2 }} className="flex">
+    <Box sx={{ p: 2 }} className="flex fww">
       <TaiwanMap
         onClick={value => setDataName(value)}
         onMouseOver={(value) => setMouseName(value)}
