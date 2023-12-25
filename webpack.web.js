@@ -5,13 +5,15 @@ const common = require('./webpack.common.js');
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = merge(common, {
   mode: 'production',
   output: {
-    filename: '[name]-[chunkhash].js',
-    publicPath: '/docs/',
     path: __dirname + '/docs/',
+    filename: '[name]-[chunkhash].js',
+    libraryTarget: 'commonjs2',
   },
   resolve: {
     alias: {
@@ -41,11 +43,12 @@ module.exports = merge(common, {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
       }
     }),
-    new MiniCssExtractPlugin(),
-  ]
+    new webpack.optimize.ModuleConcatenationPlugin(),
+  ],
 });
