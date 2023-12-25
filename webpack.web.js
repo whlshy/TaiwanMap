@@ -1,6 +1,8 @@
+const path = require("path");
 const { merge } = require('webpack-merge');
 const webpack = require('webpack');
 const common = require('./webpack.common.js');
+const CopyPlugin = require('copy-webpack-plugin')
 
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
@@ -51,5 +53,8 @@ module.exports = merge(common, {
       }
     }),
     new webpack.optimize.ModuleConcatenationPlugin(),
+    new CopyPlugin({
+      patterns: [{ from: 'src/public', to: path.resolve(__dirname, "docs/"), noErrorOnMissing: true }]
+    }),
   ],
 });

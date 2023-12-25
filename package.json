@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.jsx",
+  "homepage": "https://whlshy.github.io/TaiwanMap/",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open --progress --config webpack.dev.js",
