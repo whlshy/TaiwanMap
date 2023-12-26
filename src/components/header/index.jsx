@@ -19,7 +19,7 @@ export default function index(props) {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, background: "#1f1f1f" }}>
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -28,12 +28,10 @@ export default function index(props) {
             onClick={() => setSidebarOpen()}
           >
             <MenuIcon />
-          </IconButton>
-          <Link to="/" className='reset-link'>
-            <Typography variant="h6" component="div">
-              {title}
-            </Typography>
-          </Link>
+          </IconButton> */}
+          <Typography variant="h6" component="div">
+            {title}
+          </Typography>
           <Box sx={{ flexGrow: 1 }} />
         </Toolbar>
       </AppBar>
