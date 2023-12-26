@@ -8,6 +8,7 @@ export default function index() {
   const [mouseName, setMouseName] = useState(null)
 
   let now_data = data.find(d => d.tag == (mouseName || dataName))
+  let click_data = data.find(d => d.tag == (dataName))
 
   return (
     <Box sx={{ p: 2 }} className="flex fww">
@@ -15,6 +16,7 @@ export default function index() {
         onClick={value => setDataName(value)}
         onMouseOver={(value) => setMouseName(value)}
         onMouseLeave={() => setMouseName(null)}
+        active={click_data?.tag}
       />
       <Box sx={{ ml: 2, mr: 2, flex: "1 1 auto" }}>
         <CountyShow
