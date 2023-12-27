@@ -10,8 +10,6 @@ export default function CountyShow(props) {
     return n
   }
 
-  console.log('hover', hover_tag)
-
   return (
     <Box sx={{ position: "relative", display: "flex", flex: "1 1 auto", flexDirection: "column" }}>
       <Box>
@@ -21,8 +19,19 @@ export default function CountyShow(props) {
             labelId="taiwan-select"
             value={tag || ""}
             label="區域"
-            sx={{ color: "#FFF" }}
+            sx={{
+              color: "#FFF", '.MuiOutlinedInput-notchedOutline': { borderColor: '#FFF' },
+              '&:hover .MuiOutlinedInput-notchedOutline': {
+                borderColor: '#FFF',
+                borderWidth: '0.15rem',
+              },
+            }}
             onChange={(e) => onChange(e.target.value)}
+            inputProps={{
+              sx: {
+                borderColor: "#FFF"
+              },
+            }}
           >
             <MenuItem value="all"><em>全區</em></MenuItem>
             {
