@@ -21,6 +21,7 @@ export default function index() {
       <Box sx={{ ml: 2, mr: 2, flex: "1 1 auto" }}>
         <CountyShow
           title={now_data?.place}
+          data={now_data?.data || null}
         />
       </Box>
     </Box>
@@ -40,6 +41,11 @@ const data = [
   {
     tag: "taichung_city",
     place: "台中市",
+    data: {
+      "民進黨": [
+        "第四選舉區：① 張廖萬堅（男） "
+      ]
+    }
   },
   {
     tag: "tainan_city",
@@ -52,14 +58,29 @@ const data = [
   {
     tag: "keelung_city",
     place: "基隆市",
+    data: {
+      "無": [
+        "④ 王醒之（男） "
+      ]
+    }
   },
   {
     tag: "taoyuan_country",
     place: "桃園市",
+    data: {
+      "民眾黨": [
+        "第五選區：③ 賴香伶（女）"
+      ]
+    }
   },
   {
     tag: "hsinchu_city",
     place: "新竹市",
+    data: {
+      "時代力量": [
+        "第二選區：① 王婉諭（女）"
+      ]
+    }
   },
   {
     tag: "hsinchu_country",
