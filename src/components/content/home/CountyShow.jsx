@@ -35,7 +35,7 @@ export default function CountyShow(props) {
       </Box>
       {
         tag !== "taiwan" &&
-        <Box sx={{ pb: 3 }}>
+        <Box sx={{ pb: 3, pt: 2 }}>
           <Button variant='contained' color="primary" onClick={() => resetTag()}>
             全國不分區立法委員
           </Button>
