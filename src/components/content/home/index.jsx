@@ -4,7 +4,7 @@ import TaiwanMap from './TaiwanMap';
 import CountyShow from './CountyShow';
 
 export default function index() {
-  const [dataName, setDataName] = useState("taiwan")
+  const [dataName, setDataName] = useState("all")
   const [mouseName, setMouseName] = useState(null)
 
   let now_data = data.find(d => d.tag == (mouseName || dataName))
@@ -23,7 +23,10 @@ export default function index() {
           title={now_data?.place}
           data={now_data?.data || null}
           tag={dataName}
+          hover_tag={now_data?.tag || null}
           resetTag={() => setDataName('taiwan')}
+          all_data={data}
+          onChange={value => setDataName(value)}
         />
       </Box>
     </Box>

@@ -24,7 +24,7 @@ export default function Main() {
         <Content />
         <Footer
           title={
-              <img src="./nstu.png" className='footer-logo' />
+            <img src="./nstu.png" className='footer-logo' />
           }
         />
       </Box>
