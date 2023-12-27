@@ -90,15 +90,15 @@ const data = [
   {
     tag: "hsinchu_city",
     place: "新竹市",
+  },
+  {
+    tag: "hsinchu_country",
+    place: "新竹縣",
     data: {
       "時代力量": [
         "第二選區：① 王婉諭（女）"
       ]
     }
-  },
-  {
-    tag: "hsinchu_country",
-    place: "新竹縣",
   },
   {
     tag: "miaoli_country",
