@@ -74,11 +74,11 @@ const PersonList = (props) => {
           {data !== null &&
             Object?.keys(data)?.map((key, index) =>
               <Fragment key={index}>
-                <h2>
+                <h3>
                   <span className={`${key}`}>
                     {key}
                   </span>
-                </h2>
+                </h3>
                 {
                   data[key]?.map(d =>
                     <Fragment key={d}>
