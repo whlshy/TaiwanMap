@@ -35,7 +35,7 @@ export default function CountyShow(props) {
             <MenuItem value="all"><em>全區</em></MenuItem>
             {
               all_data?.map(d =>
-                <MenuItem key={d?.tag} value={d?.tag}>{d?.place} ({countAll(d?.data)})</MenuItem>)
+                <MenuItem key={d?.tag} value={d?.tag}>{d?.place} ({d?.data?.length || 0})</MenuItem>)
             }
           </Select>
         </FormControl>
