@@ -6,7 +6,7 @@ export default function index(props) {
   return (
     <footer>
       <div className='footer-content flex aic'>
-        <a href='https://nstu.org.tw/' target='_blank' className='reset-link flex aic jcc'>
+        <a href='https://nstu.oen.tw/' target='_blank' className='reset-link flex aic jcc'>
           {title}
         </a>
       </div>
