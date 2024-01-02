@@ -63,7 +63,7 @@ export default function CountyShow(props) {
       </Box>
       <Box className="flex-1-1">
         {
-          (tag == "all") ?
+          (tag == "all" && !hover_tag) ?
             all_data?.map(d =>
               !!d?.data && Object.keys(d?.data)?.length > 0 &&
               <PersonList

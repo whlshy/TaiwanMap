@@ -61,76 +61,83 @@ let data = [{
 {
   tag: "hsinchu_city",
   place: "新竹市",
+  data: [{
+    party: "時代力量",
+    name: "邱顯智（男）",
+    number: 6,
+    district: "",
+    declare: true,
+  },]
 },
 {
   tag: "hsinchu_country",
-  place: "新竹縣",
-  data: [{
-    party: "時代力量",
-    name: "王婉諭（女）",
-    number: 1,
-    district: "第二選區",
-    declare: true,
-  },]
+    place: "新竹縣",
+      data: [{
+        party: "時代力量",
+        name: "王婉諭（女）",
+        number: 1,
+        district: "第二選區",
+        declare: true,
+      },]
 },
 {
   tag: "miaoli_country",
-  place: "苗栗縣",
-  data: [{
-    party: "無",
-    name: "曾玟學（男）",
-    number: 2,
-    district: "第二選區",
-    declare: true,
-  },]
+    place: "苗栗縣",
+      data: [{
+        party: "無",
+        name: "曾玟學（男）",
+        number: 2,
+        district: "第二選區",
+        declare: true,
+      },]
 },
 {
   tag: "changhua_country",
-  place: "彰化縣",
+    place: "彰化縣",
 },
 {
   tag: "nantou_country",
-  place: "南投縣",
+    place: "南投縣",
 },
 {
   tag: "yunlin_country",
-  place: "雲林縣",
+    place: "雲林縣",
 },
 {
   tag: "chiayi_city",
-  place: "嘉義市",
+    place: "嘉義市",
 },
 {
   tag: "chiayi_country",
-  place: "嘉義縣",
+    place: "嘉義縣",
 },
 {
   tag: "pingtung_country",
-  place: "屏東縣",
+    place: "屏東縣",
 },
 {
   tag: "yilan_country",
-  place: "宜蘭縣",
+    place: "宜蘭縣",
 },
 {
   tag: "hualien_country",
-  place: "花蓮縣",
+    place: "花蓮縣",
 },
 {
   tag: "taitung_country",
-  place: "台東縣",
+    place: "台東縣",
 },
 {
   tag: "penghu_country",
-  place: "澎湖縣",
+    place: "澎湖縣",
 },
 {
   tag: "kinmen_country",
-  place: "金門縣",
+    place: "金門縣",
 },
 {
   tag: "lienchiang_country",
-  place: "連江縣",
+    place: "連江縣",
 }
 ];
 
