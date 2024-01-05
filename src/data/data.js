@@ -7,7 +7,13 @@ let data = [{
     number: 7,
     district: "",
     declare: true,
-  },]
+  },{
+    party: "民進黨",
+    name: "陳培瑜",
+    number: 15,
+    district: "",
+    declare: true,
+  }]
 },
 {
   tag: "taipei_city",
@@ -83,13 +89,13 @@ let data = [{
 {
   tag: "miaoli_country",
     place: "苗栗縣",
-      data: [{
-        party: "無",
-        name: "曾玟學（男）",
-        number: 2,
-        district: "第二選區",
-        declare: true,
-      },]
+    data: [{
+      party: "無",
+      name: "曾玟學（男）",
+      number: 2,
+      district: "第二選區",
+      declare: true,
+    },]
 },
 {
   tag: "changhua_country",
@@ -97,7 +103,14 @@ let data = [{
 },
 {
   tag: "nantou_country",
-    place: "南投縣",
+  place: "南投縣",
+  data: [{
+    party: "民進黨",
+    name: "蔡銘軒（男）",
+    number: 3,
+    district: "第一選區",
+    declare: true,
+  },]
 },
 {
   tag: "yunlin_country",
