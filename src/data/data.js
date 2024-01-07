@@ -32,6 +32,12 @@ let data = [{
     number: 1,
     district: "第四選舉區",
     declare: true,
+  },{
+    party: "民進黨",
+    name: " 江肇國（男）",
+    number: 4,
+    district: "第六選舉區",
+    declare: true,
   },]
 },
 {
