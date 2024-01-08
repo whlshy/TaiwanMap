@@ -18,6 +18,13 @@ let data = [{
 {
   tag: "taipei_city",
   place: "臺北市",
+  data: [{
+    party: "台灣基進",
+    name: "吳欣岱（女）",
+    number: 2,
+    district: "第四選舉區",
+    declare: true,
+  }]
 },
 {
   tag: "new_taipei_city",
