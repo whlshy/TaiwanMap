@@ -19,6 +19,12 @@ let data = [{
     number: 15,
     district: "",
     declare: true,
+  }, {
+    party: "時代力量",
+    name: "陳昱安",
+    number: 6,
+    district: "",
+    declare: true,
   }]
 },
 {
@@ -63,6 +69,13 @@ let data = [{
 {
   tag: "tainan_city",
   place: "臺南市",
+  data: [{
+    party: "民進黨",
+    name: "林宜瑾（女）",
+    number: 2,
+    district: "第四選舉區",
+    declare: true,
+  }]
 },
 {
   tag: "kaohsiung_city",
