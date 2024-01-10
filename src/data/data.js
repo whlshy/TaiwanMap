@@ -2,9 +2,21 @@ let data = [{
   tag: "taiwan",
   place: "全國不分區立法委員",
   data: [{
+    party: "時代力量",
+    name: "林依瑩",
+    number: 1,
+    district: "",
+    declare: true,
+  }, {
     party: "台灣基進",
     name: "陳君愷",
     number: 4,
+    district: "",
+    declare: true,
+  }, {
+    party: "時代力量",
+    name: "陳昱安",
+    number: 6,
     district: "",
     declare: true,
   }, {
@@ -17,12 +29,6 @@ let data = [{
     party: "民進黨",
     name: "陳培瑜",
     number: 15,
-    district: "",
-    declare: true,
-  }, {
-    party: "時代力量",
-    name: "陳昱安",
-    number: 6,
     district: "",
     declare: true,
   }]
