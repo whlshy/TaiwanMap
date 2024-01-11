@@ -184,6 +184,13 @@ let data = [{
 {
   tag: "taitung_country",
   place: "台東縣",
+  data: [{
+    party: "小民參政歐巴桑聯盟",
+    name: "黃婉茹（女）",
+    number: 2,
+    district: "",
+    declare: true,
+  },]
 },
 {
   tag: "penghu_country",
