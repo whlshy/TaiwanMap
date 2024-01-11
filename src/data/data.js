@@ -9,7 +9,25 @@ let data = [{
     declare: true,
   }, {
     party: "台灣基進",
+    name: "史惟筑",
+    number: 1,
+    district: "",
+    declare: true,
+  }, {
+    party: "時代力量",
+    name: "王寶萱",
+    number: 2,
+    district: "",
+    declare: true,
+  }, {
+    party: "台灣基進",
     name: "陳君愷",
+    number: 4,
+    district: "",
+    declare: true,
+  }, {
+    party: "時代力量",
+    name: "江盛",
     number: 4,
     district: "",
     declare: true,
