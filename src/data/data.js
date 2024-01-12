@@ -58,7 +58,7 @@ let data = [{
     party: "台灣基進",
     name: "吳欣岱（女）",
     number: 2,
-    district: "第四選舉區",
+    district: "第四選區",
     declare: true,
   }]
 },
@@ -69,7 +69,7 @@ let data = [{
     party: "國民黨",
     name: "葉元之（男）",
     number: 1,
-    district: "第七選舉區",
+    district: "第七選區",
     declare: true,
   }]
 },
@@ -80,13 +80,19 @@ let data = [{
     party: "民進黨",
     name: "張廖萬堅（男）",
     number: 1,
-    district: "第四選舉區",
+    district: "第四選區",
+    declare: true,
+  }, {
+    party: "國民黨",
+    name: "羅廷瑋（男）",
+    number: 1,
+    district: "第六選區",
     declare: true,
   }, {
     party: "民進黨",
-    name: " 江肇國（男）",
+    name: "江肇國（男）",
     number: 4,
-    district: "第六選舉區",
+    district: "第六選區",
     declare: true,
   },]
 },
@@ -94,10 +100,22 @@ let data = [{
   tag: "tainan_city",
   place: "臺南市",
   data: [{
+    party: "無",
+    name: "陳昆和（男）",
+    number: 1,
+    district: "第二選區",
+    declare: true,
+  }, {
+    party: "民進黨",
+    name: "陳亭妃（女）",
+    number: 2,
+    district: "第三選區",
+    declare: true,
+  }, {
     party: "民進黨",
     name: "林宜瑾（女）",
     number: 2,
-    district: "第四選舉區",
+    district: "第四選區",
     declare: true,
   }]
 },
@@ -136,6 +154,12 @@ let data = [{
     number: 6,
     district: "",
     declare: true,
+  }, {
+    party: "民進黨",
+    name: "張宏陸（男）",
+    number: 3,
+    district: "第六選區",
+    declare: true,
   },]
 },
 {
@@ -171,6 +195,12 @@ let data = [{
     party: "民進黨",
     name: "蔡銘軒（男）",
     number: 3,
+    district: "第一選區",
+    declare: true,
+  }, {
+    party: "小民參政歐巴桑聯盟",
+    name: "李圓恩（女）",
+    number: 4,
     district: "第一選區",
     declare: true,
   },]
